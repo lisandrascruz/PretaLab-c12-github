@@ -28,7 +28,7 @@ Comandos que ajudam a navegar e manipular arquivos e pastas.
 
 `rm -r nome-da-pasta`: deleta um repositório;
 
-`whoami`: identifica usuário logado
+`touch`: criar arquivo
 
 ## O que é o GitHub?
 
