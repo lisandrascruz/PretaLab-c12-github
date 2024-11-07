@@ -30,6 +30,10 @@ Comandos que ajudam a navegar e manipular arquivos e pastas.
 
 `touch`: criar arquivo
 
+`mv nomeAntigo nomeNovo`: renomear um arquivo
+
+`vim nomeDoArquivo`: abre o arquivo indicado com o vim 
+
 ## O que é o GitHub?
 
 O GitHub é uma plataforma de hospedagem de código-fonte e desenvolvimento colaborativo, que usa o **sistema de controle de versão** Git. Ele permite que desenvolvedores armazenem, gerenciem e compartilhem seu código, além de colaborar em projetos de software de maneira organizada e eficiente.
