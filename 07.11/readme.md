@@ -39,11 +39,11 @@ Aqui está uma lista dos comandos mais importantes do Git e como usá-los no Git
    git add .                  # Adiciona todos os arquivos modificados
    ```
 
-#### 6. **Reservando alterações**
-   O git stash é um comando do Git que permite salvar temporariamente as alterações no seu ambiente de trabalho (os arquivos que estão modificados ou não commitados) sem precisar fazer um commit.
+#### 6. **Removendo Mudanças**
+   Depois de adicionar, preparando seus arquivos para commit, você pode precisar "removê-los". Use `git reset` para isso:
    ```bash
-   git stash        # armazena as mudanças
-   git stash pop    # trás de volta para o código as mudanças anteriormente armazenadas
+   git reset nome_do_arquivo      # Remove um arquivo específico
+   git reset .                    # Remove todos os arquivos adicionados
    ```
 
 #### 7. **Criando um Commit**
@@ -53,26 +53,42 @@ Aqui está uma lista dos comandos mais importantes do Git e como usá-los no Git
    ```
    conventional commits: feat, fix, style, docs, revert.
 
-#### 8. **Enviando para o GitHub (Push)**
+#### 8. **Removendo um commit local**
+   Para apagar um commit feito enquanto está apenas localmente:
+   ```bash
+   git reset HEAD~      # Reverte o último commit local
+   git reset HEAD~2     # Reverte a quantidade de commits locais que você passar após `~`
+   ```
+   [leia mais sobre reverter commits](https://medium.com/@dieggocarrilho/como-desfazer-commit-local-e-remoto-a6409f0388d4)
+   
+#### 9. **Enviando para o GitHub (Push)**
    Envie as alterações do seu repositório local para o repositório remoto no GitHub com `git push`:
    ```bash
    git push origin main       # Envia as mudanças para a branch 'main' no GitHub
    ```
 
-#### 9. **Atualizando o Repositório Local (Pull)**
+#### 10. **Atualizando o Repositório Local (Pull)**
    Para sincronizar seu repositório local com as mudanças feitas por outras pessoas no repositório do GitHub, use `git pull`:
    ```bash
    git pull origin main
    ```
 
-#### 10. **Verificando o Status**
+#### 11. **Verificando o Status**
    O comando `git status` exibe quais arquivos foram alterados, adicionados ou ainda não foram commitados, permitindo que você veja o que está acontecendo no repositório:
    ```bash
    git status
    ```
 
-#### 11. **Verificando o Histórico de Commits**
+#### 12. **Verificando o Histórico de Commits**
    Use `git log` para visualizar o histórico de commits e ver as mudanças feitas ao longo do tempo:
    ```bash
    git log
    ```
+
+#### 13. **Reservando alterações**
+   O git stash é um comando do Git que permite salvar temporariamente as alterações no seu ambiente de trabalho (os arquivos que estão modificados ou não commitados) sem precisar fazer um commit.
+   ```bash
+   git stash        # armazena as mudanças
+   git stash pop    # trás de volta para o código as mudanças anteriormente armazenadas
+   ```
+
