@@ -1,3 +1,11 @@
+# Criando meu primeiro repositório
+
+O Repositório é um local onde os arquivos de um projeto, incluindo o histórico de suas alterações, são armazenados e gerenciados utilizando o sistema de controle de versão Git. Ele permite que os usuários colaborem, façam alterações, rastreie mudanças e mantenha a integridade dos arquivos do projeto.
+
+1. Acesse o seu github e façá login
+2. Na página inicial, no canto superior direito, clique em `+` e escolha a opção `Novo repositório`
+3. Dê um nome ao seu repositório, defina se será publico ou privado e por fim, clique em `Criar repositório` para finalizar a criação
+
 # Principais Comandos do Git e GitHub
 
 Aqui está uma lista dos comandos mais importantes do Git e como usá-los no GitHub. Esses comandos permitem que você inicialize projetos, rastreie alterações no código, e faça upload para o GitHub, facilitando o desenvolvimento colaborativo.
