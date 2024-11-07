@@ -51,6 +51,7 @@ Aqui está uma lista dos comandos mais importantes do Git e como usá-los no Git
    ```bash
    git commit -m "Mensagem descrevendo as alterações"
    ```
+   conventional commits: feat, fix, style, docs, revert.
 
 #### 8. **Enviando para o GitHub (Push)**
    Envie as alterações do seu repositório local para o repositório remoto no GitHub com `git push`:
