@@ -56,8 +56,7 @@ Aqui está uma lista dos comandos mais importantes do Git e como usá-los no Git
 #### 8. **Removendo um commit local**
    Para apagar um commit feito enquanto está apenas localmente:
    ```bash
-   git reset HEAD~      # Reverte o último commit local
-   git reset HEAD~2     # Reverte a quantidade de commits locais que você passar após `~`
+   git reset HEAD~2     # Reverte a posiçãso do commit local desejado `~`
    ```
    [leia mais sobre reverter commits](https://medium.com/@dieggocarrilho/como-desfazer-commit-local-e-remoto-a6409f0388d4)
    
